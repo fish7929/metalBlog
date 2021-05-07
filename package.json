@@ -1,0 +1,15 @@
+{
+  "name": "metal-Blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fish7929/metalBlog.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
